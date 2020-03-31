@@ -24,6 +24,6 @@ public class ChampionTypeTest {
     public void DifferenceBetweenADCAndWorrier(){
         int[] diff = ChampionType.WARRIOR.difference(ChampionType.ADC);
         int[] a = {2, 2, -1, 0, 2};
-         assertEquals(true, Arrays.equals(a, diff));
+        assertEquals(true, Arrays.equals(a, diff));
     }
 }
