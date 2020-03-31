@@ -1,13 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7ee43f9b-2c19-47bc-99e7-903e834e57e7" name="Default Changelist" comment="" />
+    <list default="true" id="7ee43f9b-2c19-47bc-99e7-903e834e57e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AEPFinalProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AEPFinalProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArithmeticQuantity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bestable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Quantity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ScaleQuantity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Sort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TemperatureQuantity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChampionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ChanceTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/NotTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/QuantityTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/RectangleTeat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/RecurrsionTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/SortTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/SquareTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/TemperatureTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/UnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ChampionTypeTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DarkyenusTimeTracker">
+    <option name="totalTimeSeconds" value="3206" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZrxI8UblUOMlz8wvLdF2f4A4hY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -19,6 +55,7 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />

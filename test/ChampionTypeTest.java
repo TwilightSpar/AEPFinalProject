@@ -1,15 +1,11 @@
-package edu.berkeley.aep;
-
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class UnitTest {
+public class ChampionTypeTest {
     @Test
-    public void inch2feet(){
-        var inch = new ArithmeticQuantity(12, Unit.INCHES);
-        var foot = new ArithmeticQuantity(1,Unit.FEET);
-        assertEquals(inch, foot);
+    public void TANKShouldHaveMoreHealthThanWARRIOR() throws Exception{
+        assertEquals(true, ChampionType.TANK.hasMoreHealthThan(ChampionType.WARRIOR));
     }
 
 
