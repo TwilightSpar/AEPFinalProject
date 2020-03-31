@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ee43f9b-2c19-47bc-99e7-903e834e57e7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Champion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Champion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ChampionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChampionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/PlayerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/PlayerTest.java" afterDir="false" />
     </list>
@@ -13,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="9547" />
+    <option name="totalTimeSeconds" value="11102" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,7 +55,7 @@
       <recent name="C:\Users\yangy\IdeaProjects\AEPFinalProject\test" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ChampionTest">
+  <component name="RunManager" selected="JUnit.PlayerTest">
     <configuration name="ChampionTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AEPFinalProject" />
       <option name="PACKAGE_NAME" value="" />
@@ -84,11 +83,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTest.CanNotCompareZaZhiToUZI" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PlayerTest.UseStaticGenerationFunctionToCreateObject" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AEPFinalProject" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PlayerTest" />
-      <option name="METHOD_NAME" value="CanNotCompareZaZhiToUZI" />
+      <option name="METHOD_NAME" value="UseStaticGenerationFunctionToCreateObject" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ChampionTest" />
         <item itemvalue="JUnit.PlayerTest" />
-        <item itemvalue="JUnit.ChampionTypeTest" />
-        <item itemvalue="JUnit.PlayerTest.CanNotCompareZaZhiToUZI" />
         <item itemvalue="JUnit.PlayerTest.ZaZhiRivenIsBetterThanMe" />
+        <item itemvalue="JUnit.PlayerTest.UseStaticGenerationFunctionToCreateObject" />
+        <item itemvalue="JUnit.ChampionTest" />
+        <item itemvalue="JUnit.ChampionTypeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -134,22 +133,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585614593369" />
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1585698008440">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1585698916974">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585698008440" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1585698008440">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585698916974" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1585698916974">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585698008440" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1585698008440">
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585698916974" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1585698916974">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585698008440" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1585698008440">
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585698916974" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1585698916974">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585698008440" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585698916974" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1585614638927">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
