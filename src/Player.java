@@ -25,10 +25,9 @@ public class Player {
                 this.additionMove;
     }
 
-    public boolean isBetterThan(Player other) {
-//        if (!other.mayorChampion.name.equals(this.mayorChampion.name))
-//            throw new IllegalArgumentException("Cannot compare player who plays " + this.mayorChampion.name + " to others who plays " + other.mayorChampion.name);
-//
+    public boolean isBetterThan(Player other) throws IllegalArgumentException {
+        if (!other.mayorChampion.name.equals(this.mayorChampion.name))
+            throw new IllegalArgumentException("Cannot compare player who plays " + this.mayorChampion.name + " to others who plays " + other.mayorChampion.name);
         return this.ability() > other.ability();
     }
 }
