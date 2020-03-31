@@ -13,4 +13,8 @@ public class ChampionTypeTest {
         assertEquals(true, ChampionType.WARRIOR.hasMoreHealthThan(ChampionType.ADC));
     }
 
+    @Test
+    public void ADCShouldHaveMoreDamageThanTANK(){
+        assertEquals(true, ChampionType.ADC.hasMoreDamageThan(ChampionType.TANK));
+    }
 }

@@ -1,14 +1,10 @@
-
+// understand champion type from game LOL.
 public enum ChampionType {
 
     WARRIOR(3, 3, 4, 1, 5, Position.TOP),
     TANK(5, 5, 3, 2, 2, Position.TOP),
     ADC(1, 1, 5, 1, 3, Position.BOT)
     ;
-
-//    public boolean ifSameUnitType(Unit unit) {
-//        return this.type == unit.type;
-//    }
 
     private enum Position { BOT("bottom"), SUP("support"), MID("mid"), JUNGLE("jungle"), TOP("top");
         String position;
@@ -41,6 +37,10 @@ public enum ChampionType {
         if (other.position != this.position)
             throw new IllegalArgumentException("Cannot compare " + this.position + " to " + other.position);
         return this.health > other.health;
+    }
+
+    public boolean hasMoreDamageThan(ChampionType other) {
+        return (this.ad+this.ap) > (other.ad+other.ap);
     }
 
 }
