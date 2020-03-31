@@ -1,4 +1,4 @@
-public class Champion {
+public class Champion implements CanSumUpAbility{
 
     String name;
     int additionHealth;
@@ -18,20 +18,16 @@ public class Champion {
         this.type            = type;
     }
 
+    public int ability(){
+        return this.additionHealth+
+                this.additionArmor+
+                this.additionAD+
+                this.additionAP+
+                this.additionMove;
+    }
+
     public boolean canKill(Champion other) {
-        int[] typeDifference = this.type.difference(other.type);
-        int[] championDiffernece = new int[5];
-        championDiffernece[0] = additionHealth  - additionHealth;
-        championDiffernece[1] = this.additionArmor   - additionArmor;
-        championDiffernece[2] = this.additionAD      - additionAD;
-        championDiffernece[3] = this.additionAP      - additionAP;
-        championDiffernece[4] = this.additionMove    - additionMove;
-
-        int totalDifference = 0;
-        for(int i = 0; i < typeDifference.length; i++)
-            totalDifference += typeDifference[i] + championDiffernece[i];
-
-        return totalDifference > 0;
+        return (this.ability() - other.ability() + this.type.difference(other.type)) > 0;
     }
 
 }

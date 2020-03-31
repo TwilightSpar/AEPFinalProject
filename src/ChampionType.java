@@ -1,5 +1,5 @@
 // understand champion type from game LOL.
-public enum ChampionType {
+public enum ChampionType implements CanSumUpAbility{
 
     WARRIOR(3, 3, 4, 1, 5, Position.TOP),
     TANK(5, 5, 3, 2, 2, Position.TOP),
@@ -43,13 +43,17 @@ public enum ChampionType {
     public boolean hasMoreDamageThan(ChampionType other) {
         return (this.ad+this.ap) > (other.ad+other.ap);
     }
-    public int[] difference(ChampionType other){
-        int[] diff = new int[5];
-        diff[0] = this.health - other.health;
-        diff[1] = this.armor - other.armor;
-        diff[2] = this.ad - other.ad;
-        diff[3] = this.ap - other.ap;
-        diff[4] = this.movement - other.movement;
-        return diff;
+
+    public int difference(ChampionType other){
+
+        return this.ability() - other.ability();
+    }
+
+    public int ability(){
+        return this.health+
+                this.armor+
+                this.ad+
+                this.ap+
+                this.movement;
     }
 }

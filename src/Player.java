@@ -1,4 +1,4 @@
-public class Player {
+public class Player implements CanSumUpAbility {
 
     String name;
     int additionHealth;
