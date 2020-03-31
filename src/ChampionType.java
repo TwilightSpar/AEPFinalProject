@@ -3,7 +3,8 @@ public enum ChampionType {
 
     WARRIOR(3, 3, 4, 1, 5, Position.TOP),
     TANK(5, 5, 3, 2, 2, Position.TOP),
-    ADC(1, 1, 5, 1, 3, Position.BOT)
+    ADC(1, 1, 5, 1, 3, Position.BOT),
+    SOFTSUPPORT(1, 1, 2, 4, 5, Position.SUP)
     ;
 
     private enum Position { BOT("bottom"), SUP("support"), MID("mid"), JUNGLE("jungle"), TOP("top");
