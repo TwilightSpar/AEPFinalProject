@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ee43f9b-2c19-47bc-99e7-903e834e57e7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Champion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/ChampionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/AEPFinalProject/ChampionType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/AEPFinalProject/ChampionType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ChampionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChampionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ChampionTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ChampionTypeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="4062" />
+    <option name="totalTimeSeconds" value="5944" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -42,7 +47,12 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="JUnit.ChampionTypeTest.ADCShouldHaveMoreDamageThanTANK">
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ChampionTypeTest.DifferenceBetweenADCAndWorrier">
     <configuration name="ChampionTypeTest.ADCShouldHaveMoreDamageThanTANK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AEPFinalProject" />
       <option name="PACKAGE_NAME" value="" />
@@ -63,8 +73,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ChampionTypeTest.DifferenceBetweenADCAndWorrier" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AEPFinalProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ChampionTypeTest" />
+      <option name="METHOD_NAME" value="DifferenceBetweenADCAndWorrier" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ChampionTypeTest.DifferenceBetweenADCAndWorrier" />
         <item itemvalue="JUnit.ChampionTypeTest.ADCShouldHaveMoreDamageThanTANK" />
         <item itemvalue="JUnit.ChampionTypeTest.CompareWARRIORWithADCWillThrowException" />
       </list>
@@ -86,22 +107,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="82" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1585614593369" />
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1585633393655">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom" timestamp="1585635199441">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585633393655" />
-    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1585633393655">
+    <state width="1259" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1585635199441" />
+    <state width="1259" height="163" key="GridCell.Tab.0.center" timestamp="1585635199441">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585633393655" />
-    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1585633393655">
+    <state width="1259" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1585635199441" />
+    <state width="1259" height="163" key="GridCell.Tab.0.left" timestamp="1585635199441">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585633393655" />
-    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1585633393655">
+    <state width="1259" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1585635199441" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right" timestamp="1585635199441">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585633393655" />
+    <state width="1259" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1585635199441" />
     <state x="121" y="0" key="SettingsEditor" timestamp="1585614638927">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -110,5 +131,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="375" y="234" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.680@0.0.1280.680" timestamp="1585614636325" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1585634717664">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1585634717664" />
   </component>
 </project>

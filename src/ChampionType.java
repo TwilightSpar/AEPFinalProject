@@ -42,5 +42,13 @@ public enum ChampionType {
     public boolean hasMoreDamageThan(ChampionType other) {
         return (this.ad+this.ap) > (other.ad+other.ap);
     }
-
+    public int[] difference(ChampionType other){
+        int[] diff = new int[5];
+        diff[0] = this.health - other.health;
+        diff[1] = this.armor - other.armor;
+        diff[2] = this.ad - other.ad;
+        diff[3] = this.ap - other.ap;
+        diff[4] = this.movement - other.movement;
+        return diff;
+    }
 }
