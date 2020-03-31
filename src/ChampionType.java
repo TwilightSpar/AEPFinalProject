@@ -39,7 +39,7 @@ public enum ChampionType {
 
     public boolean hasMoreHealthThan(ChampionType other) throws Exception {
         if (other.position != this.position)
-            throw new Exception("Cannot compare " + this.position + " to " + other.position);
+            throw new IllegalArgumentException("Cannot compare " + this.position + " to " + other.position);
         return this.health > other.health;
     }
 

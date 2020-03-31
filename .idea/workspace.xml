@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ee43f9b-2c19-47bc-99e7-903e834e57e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AEPFinalProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AEPFinalProject.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ArithmeticQuantity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bestable.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Chance.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Event.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Quantity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ScaleQuantity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TemperatureQuantity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChampionType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ChanceTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/NotTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/QuantityTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/RectangleTeat.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/RecurrsionTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/SortTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/SquareTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/TemperatureTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/UnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ChampionTypeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ChampionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ChampionType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ChampionTypeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ChampionTypeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DarkyenusTimeTracker">
-    <option name="totalTimeSeconds" value="3206" />
+    <option name="totalTimeSeconds" value="3346" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,6 +42,23 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ChampionTypeTest.CompareWARRIORWithADCWillThrowException" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AEPFinalProject" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ChampionTypeTest" />
+      <option name="METHOD_NAME" value="CompareWARRIORWithADCWillThrowException" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ChampionTypeTest.CompareWARRIORWithADCWillThrowException" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
