@@ -29,13 +29,13 @@ public class PlayerTest {
         var Me = Player.createPlayer("Me", 0, 2, 4, 0, 0, riven);
         assertEquals(true, ZaZhi.ability() > Me.ability());
     }
-
-    @Test
-    public void UseStaticGenerationFunctionToCreateObject() {
-        var riven = new Champion("riven", 0, 1, 2, -1, 3, ChampionType.WARRIOR);
-
-        var ZaZhi = Player.createPlayer("ZhZhi", 2, 0, 3, 0, 3, riven);
-        var Me = Player.createPlayer("Me", 0, 2, 4, 0, 0, riven);
-        assertEquals(false, ZaZhi.equals(Me));
-    }
+//
+//    @Test
+//    public void UseStaticGenerationFunctionToCreateObject() {
+//        var riven = new Champion("riven", 0, 1, 2, -1, 3, ChampionType.WARRIOR);
+//
+//        var ZaZhi = Player.createPlayer("ZhZhi", 2, 0, 3, 0, 3, riven);
+//        var Me = Player.createPlayer("Me", 0, 2, 4, 0, 0, riven);
+//        assertEquals(false, ZaZhi.equals(Me));
+//    }
 }
